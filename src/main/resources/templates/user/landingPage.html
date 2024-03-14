@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+	th:replace="base::Layout(~{::section})">
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<link rel="stylesheet" type="text/css" href="/css/landing.css">
+</head>
+<body>
+	<section class="h-100" style="overflow-y: scroll;scrollbar-width: thin; scrollbar-color: #def2f1 #17252a;">
+		<div class="main-div h-100">
+			<section class="h-100">
+				<div class="row m-0">
+					<!-- Main Panel -->
+					<div class="col-md-8">
+						<div class="row m-0 mt-2 nav">
+							<input type="text" class="form-control bg-transparent col-md-4" placeholder="Search content">
+							<button type="submit" class="btn btn-outline-light bg-transparent"><i class="fa fa-search"></i></button>
+							<a class="btn btn-outline-light bg-transparent ml-auto" th:href="@{/barber/addBarber}"><i class="fa fa-user mx-1"></i>Add Barber</a>
+						</div>
+						<div class="row d-flex justify-content-center align-items-center">
+							<div class="col col-xl-12 p-3">
+								<div class="card"
+									style="border-radius: 15px; background: url(/images/landing/card-bg.jpg); background-size: cover;">
+									<div class="card-body p-4">
+										<h4 class="mb-3 text-right text-off">Discover The</h4>
+										<h1 class="mb-3 text-right text-aqua">Trimster</h1>
+										<h4 class="text-right text-off">Book & Buy</h4>
+										<h5 class="text-right text-off">Enjoy our home service</h5>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<h4 class="text-off">Working Partners</h4>
+							<section>
+								<div class="row text-center">
+									<div class="col-md-4 mb-5 mb-md-0">
+										<div class="d-flex justify-content-center mb-4">
+											<img
+												src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+												class="rounded-circle shadow-1-strong" width="150"
+												height="150" />
+										</div>
+										<h5 class="mb-3 text-aqua">Maria Smantha</h5>
+										<h6 class="text-primary mb-3 text-aqua-grey">Web
+											Developer</h6>
+									</div>
+									<div class="col-md-4 mb-5 mb-md-0">
+										<div class="d-flex justify-content-center mb-4">
+											<img
+												src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+												class="rounded-circle shadow-1-strong" width="150"
+												height="150" />
+										</div>
+										<h5 class="mb-3 text-aqua">Lisa Cudrow</h5>
+										<h6 class="text-primary mb-3 text-aqua-grey">Graphic
+											Designer</h6>
+									</div>
+									<div class="col-md-4 mb-0">
+										<div class="d-flex justify-content-center mb-4">
+											<img
+												src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+												class="rounded-circle shadow-1-strong" width="150"
+												height="150" />
+										</div>
+										<h5 class="mb-3 text-aqua">John Smith</h5>
+										<h6 class="text-primary mb-3 text-aqua-grey">Marketing
+											Specialist</h6>
+									</div>
+								</div>
+							</section>
+							<div>
+								<a href="# nav-link text-off">view more</a>
+							</div>
+						</div>
+						<h4 class="text-off mt-2">Service Providers</h4>
+						<div class="row m-0 my-2">
+							<div class="col-md-4">
+								<div class="card p-1 rounded bg-aqua-grey">
+									<img class="card-img-top rounded"
+										src="/images/landing/card-bg.jpg" alt="Card image cap">
+									<div class="card-body">
+										<h5 class="card-title text-off">John Smith</h5>
+										<a href="#" class="btn btn-primary bg-aqua text-off">Go
+											somewhere</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div>
+							<a href="# nav-link text-off">view more</a>
+						</div>
+					</div>
+
+					<!-- Right Panel -->
+					<div class="col-md-4">
+						<div class="card p-1 rounded bg-aqua-grey my-2">
+							<img class="card-img-top" src="/images/landing/card-bg.jpg"
+								alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title text-off">John Smith</h5>
+								<a href="#" class="btn btn-primary bg-aqua text-off">Go
+									somewhere</a>
+							</div>
+						</div>
+						<div class="card p-1 rounded bg-aqua-grey my-2">
+							<img class="card-img-top" src="/images/landing/card-bg.jpg"
+								alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title text-off">John Smith</h5>
+								<a href="#" class="btn btn-primary bg-aqua text-off">Go
+									somewhere</a>
+							</div>
+						</div>
+						<div class="card p-1 rounded bg-aqua-grey my-2">
+							<img class="card-img-top" src="/images/landing/card-bg.jpg"
+								alt="Card image cap">
+							<div class="card-body">
+								<h5 class="card-title text-off">John Smith</h5>
+								<a href="#" class="btn btn-primary bg-aqua text-off">Go
+									somewhere</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</section>
+</body>
+</html>

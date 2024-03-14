@@ -1,0 +1,34 @@
+.text-main{
+	color:#17252a!important;
+}
+.text-aqua-grey{
+	color:#2b7a78!important;
+}
+.text-aqua{
+	color:#3aafa9;
+}
+.text-off-grey{
+	color:#def2f1!important;
+}
+.text-off{
+	color:#feffff!important;
+}
+
+.bg-main{
+	background:#17252a!important;
+}
+.bg-aqua-grey{
+	background:#2b7a78!important;
+}
+.bg-aqua{
+	background:#3aafa9!important;
+}
+.bg-off-grey{
+	background:#def2f1!important;
+}
+.bg-off{
+	background:#feffff!important;
+}
+.gradient {
+    background: linear-gradient(270deg, #17252a, #2b7a78, #3aafa9, #def2f1, #feffff);
+}
